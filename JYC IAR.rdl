@@ -8,20 +8,19 @@
       <am:Version>15.1.30001.02</am:Version>
     </am:CreatedBy>
     <am:UpdatedBy>
-      <am:Name>PBIRB</am:Name>
-      <am:Version>15.7.1815.334</am:Version>
+      <am:Name>MSRB</am:Name>
+      <am:Version>15.1.30001.02</am:Version>
     </am:UpdatedBy>
-    <am:LastModifiedTimestamp>2025-12-12T09:31:03.4692721Z</am:LastModifiedTimestamp>
+    <am:LastModifiedTimestamp>2026-01-20T01:39:25.0037103Z</am:LastModifiedTimestamp>
   </am:AuthoringMetadata>
   <df:DefaultFontFamily>Segoe UI</df:DefaultFontFamily>
   <AutoRefresh>0</AutoRefresh>
   <DataSources>
     <DataSource Name="MYPAY">
-      <rd:SecurityType>Integrated</rd:SecurityType>
+      <rd:SecurityType>DataBase</rd:SecurityType>
       <ConnectionProperties>
         <DataProvider>SQL</DataProvider>
-        <ConnectString>Data Source=RASIDIN-STT\MSSQLSERVER01;Initial Catalog=MYPAY</ConnectString>
-        <IntegratedSecurity>true</IntegratedSecurity>
+        <ConnectString>Data Source=RASIDIN-STT\MSSQLSERVER01;Initial Catalog=MYPAY_JCY</ConnectString>
       </ConnectionProperties>
       <rd:DataSourceID>8c83112f-759a-468b-a775-91926440e1ad</rd:DataSourceID>
     </DataSource>
